@@ -1,13 +1,14 @@
 Angular user grpc-web for grpc call.
 
 
-See [Angular Readme.md](angular-demo/README.md)
+[Angular Readme.md](angular-demo/README.md)
  
-Spring Boot grpc service.
+[Spring Boot Readme.md](grpc-server/README.md)
 
 Envoy proxy to convert Http1 to Http2.
 
 
+``` docker-compose up ```
 
 References:
 
