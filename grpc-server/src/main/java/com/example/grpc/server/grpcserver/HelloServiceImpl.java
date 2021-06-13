@@ -14,6 +14,8 @@ public class HelloServiceImpl extends HelloServiceGrpc.HelloServiceImplBase {
                 .append(request.getFirstName())
                 .append(" ")
                 .append(request.getLastName())
+                .append("\n")
+                .append("Grpc Server Response")
                 .toString();
 
         HelloResponse response = HelloResponse.newBuilder()
