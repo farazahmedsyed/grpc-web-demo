@@ -1,4 +1,4 @@
-## Prerequisites: [Readme.md] (./required_softwares/Readme.md)
+## Prerequisites: [./required_softwares/Readme.md](Readme.md)
 protoc, proto-gen-grpc-web
 
 ## Generate Command:
