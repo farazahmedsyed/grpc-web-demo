@@ -1,0 +1,20 @@
+version: '3'
+services:
+  envoy:
+    build: ./envoy
+    image: custom_envoy
+    container_name: envoy
+    ports:
+      - "10000:10000"
+  angular-demo:
+    build: ./angular-demo
+    image: angular-demo
+    container_name: angular-demo
+    ports:
+      - 4200:80
+  grpc-server:
+    build: ./grpc-server
+    image: grpc-server
+    container_name: grpc-server
+    ports: 
+      - 9090:9090

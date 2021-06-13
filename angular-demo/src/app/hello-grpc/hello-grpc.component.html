@@ -1,0 +1,31 @@
+<p>Grpc Request Form</p>
+<!--
+<form [formGroup]="helloForm" (ngSubmit)="onSubmit()">
+
+    <button class="button" type="submit">Grpc Request</button>
+  
+  </form>
+  -->
+  <form [formGroup]="helloForm" (ngSubmit)="onSubmit()">
+
+    <div>
+      <label for="firstname">
+        First Name
+      </label>
+      <input id="firstname" type="text" formControlName="firstname">
+    </div>
+    <br/>
+  
+    <div>
+      <label for="lastname">
+        Last Name
+      </label>
+      <input id="lastname" type="text" formControlName="lastname">
+    </div>
+    <br/>
+  
+    <button class="button" type="submit" [disabled]="helloForm.invalid">Grpc Request</button>
+  
+    <br/>
+    {{result}}
+  </form>
