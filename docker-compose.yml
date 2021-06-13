@@ -19,9 +19,5 @@ services:
     build: ./grpc-server
     image: grpc-server
     container_name: grpc-server
-    volumes: 
-      - type: volume
-        source: m2_volume
-        target: /root/.m2
     ports: 
       - 9090:9090
