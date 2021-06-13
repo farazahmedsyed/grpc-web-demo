@@ -19,3 +19,5 @@ References:
 3). https://sajeerzeji44.medium.com/grpc-for-spring-boot-microservices-bd9b79569772
 
 4). https://github.com/sajeerzeji/SpringBoot-GRPC
+
+5). https://dzone.com/articles/how-to-dockerize-angular-app
