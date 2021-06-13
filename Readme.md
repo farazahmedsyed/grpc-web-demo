@@ -1,7 +1,7 @@
 Angular user grpc-web for grpc call.
 
 
-See [Angular Readme.md](angular-demo/Readme.md)
+See [Angular Readme.md](angular-demo/README.md)
  
 Spring Boot grpc service.
 
