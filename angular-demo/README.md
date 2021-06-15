@@ -3,7 +3,7 @@ protoc, proto-gen-grpc-web
 
 ## Generate Command:
 
-protoc -I=./HelloService.proto --js_out=import_style=commonjs,binary:./src/app/generated  --grpc-web_out=import_style=typescript,mode=grpcweb:./src/app/generated
+protoc ./HelloService.proto --js_out=import_style=commonjs,binary:./src/app/generated  --grpc-web_out=import_style=typescript,mode=grpcweb:./src/app/generated
 
 ## Development server
 
