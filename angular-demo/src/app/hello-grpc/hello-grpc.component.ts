@@ -40,7 +40,8 @@ export class HelloGrpcComponent implements OnInit {
         console.log(err.message);
         res = err.message;
       } else {
-        res = response.getGreeting();
+         var json  = JSON.parse(JSON.stringify(response.toObject()));
+        res = json.greeting;
       }
       self.result = res;
     });
